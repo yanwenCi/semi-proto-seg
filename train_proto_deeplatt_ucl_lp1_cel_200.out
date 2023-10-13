@@ -2,11 +2,11 @@ Error: Oh My Zsh can't be loaded from: slurm_script. You need to run zsh instead
 Here's the process tree:
 
   PPID    PID COMMAND
-     1   8976 slurmstepd: [205847.batch]
-  8976   8980  \_ /usr/bin/sh /var/spool/slurm/job205847/slurm_script
+     1   9309 slurmstepd: [205848.batch]
+  9309   9313  \_ /usr/bin/sh /var/spool/slurm/job205848/slurm_script
 
 INFO - PANet - Running command 'main'
-INFO - PANet - Started run with ID "5"
+INFO - PANet - Started run with ID "1"
 INFO - main - ###### Create model ######
 INFO - main - ###### Load data ######
 INFO - main - ###### Set optimizer ######
@@ -17,4 +17,4 @@ Number of train images: 998 NIFTIs
 labeled dataset [MyDataLoader] was created 
 Number of test images: 445 NIFTIs
 labeled dataset [MyDataLoader] was created 
-slurmstepd: error: *** JOB 205847 ON node1 CANCELLED AT 2023-10-13T16:43:17 ***
+slurmstepd: error: *** JOB 205848 ON node1 CANCELLED AT 2023-10-13T16:56:51 ***
