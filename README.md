@@ -1,6 +1,8 @@
 # semi-proto-seg
 designed for semi-supervised prostate segmentation with lesion prototype used 
-![The workflow of the proposed network that consists of four paths, labelled Paths 1-4. Paths 1 and 4 process support (labelled) images and Paths 2 and 3 process query (unlabelled) images.](semi_seg-main_net.jpeg)
+![model](semi_seg-main_net.jpeg)
+Figure1. The workflow of the proposed network that consists of four paths, labelled Paths 1-4. Paths 1 and 4 process support (labelled) images and Paths 2 and 3 process query (unlabelled) images.
+
 
 ```
 python train.py
