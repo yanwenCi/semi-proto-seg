@@ -1,9 +1,6 @@
 # semi-proto-seg
 designed for semi-supervised prostate segmentation with lesion prototype used 
-\begin{figure}
-  \include{network.png}
-\end{figure}
-training
+![model](semi_seg-main_net.jpeg)
 
 ```
 python train.py
