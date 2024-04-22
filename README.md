@@ -1,6 +1,8 @@
 # semi-proto-seg
 designed for semi-supervised prostate segmentation with lesion prototype used 
-
+\begin{figure}
+  \include{network.png}
+\end{figure}
 training
 
 ```
