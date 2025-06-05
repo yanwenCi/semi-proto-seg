@@ -9,7 +9,7 @@ images. Adapting prototype learning to semi-supervised segmentation is neither s
 In this work, we propose to use a teacher network to generate pseudo-labels for unlabelled images.
 Then, both labelled and pseudo-labelled images serve as support and query, respectively, to train the
 prototypical segmentation in a bidirectional way.
-![model](semi_seg-main_net.jpeg)
+![model](semi_seg-main_net.png)
 Figure1. The workflow of the proposed network that consists of four paths, labelled Paths 1-4. Paths 1 and 4 process support (labelled) images and Paths 2 and 3 process query (unlabelled) images.
 ## dependencies
   -  Python 3.6 +
